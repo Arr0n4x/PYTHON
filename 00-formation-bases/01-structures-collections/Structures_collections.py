@@ -28,7 +28,7 @@
 age = 18
 
 if age >= 18:
-    print("Vous êtes majeur")
+ print("Vous êtes majeur")
 
 # Ici, comme age vaut 16 (qui est inférieur à 18), la condition age >= 18 est fausse. Le programme exécute donc le bloc else et affiche "Vous êtes mineur". Cette structure garantit qu'une des deux actions sera toujours exécutée.
 
