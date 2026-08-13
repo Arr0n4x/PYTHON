@@ -90,7 +90,71 @@
 # ======================= Nouvelle exercice ================
 # Le but de cet exercice est de récupérer à la fois l'indice et l'élément sur lequel nous bouclons dans chaque itération de la boucle for.
 
-liste = ["Pierre", "Paul", "Marie"]
+# liste = ["Pierre", "Paul", "Marie"]
 
-for index, element in enumerate(liste) : 
-    print(f"{index} : { element}")
+# for index, element in enumerate(liste) : 
+#     print(f"{index} : { element}")
+
+
+# =====================EXERCICE============================
+# Dans cet exercice, nous avons une liste qui contient 50 nombres.
+
+# Le but de cet exercice est de récupérer dans la liste nombres_pairs, uniquement les nombres pairs de la liste nombres.
+
+# nombres = range(51)
+# nombres_pairs =[pair for pair in nombres if pair % 2 == 0]
+# print(nombres_pairs)
+
+# a faire aussi de cette manière 
+
+# nombres = range(51)
+# nombres_pairs = []
+
+# for i in nombres:
+#     if i % 2 == 0:
+#         nombres_pairs.append(i)
+
+# =====================EXERCICE==============================
+# Dans cet exercice, nous sommes en présence d'une boucle while infinie !
+
+# En l'état actuel, le script ne s'arrêtera jamais et la phrase 'Exercice réussi !' ne sera jamais assignée à la variable resultat.
+
+# Vous devez modifier la boucle while afin d'en sortir et d'assigner la phrase 'Exercice réussi !' à la variable resultat.
+
+# i = 0
+
+# while i < 10:
+# 	i +=1
+
+# resultat = "Exercice fini"
+
+# print(resultat)
+
+# ========================EXERCICE============================
+# Dans cet exercice, vous devez additionner toutes les valeurs du dictionnaire ensemble.
+
+# Votre script doit donc retourner le nombre entier 8700 dans la variable resultat.
+
+# employes = {"Pierre": 2500, "Marie": 5000, "Julien": 1200}
+
+# resultat = sum(employes.values())
+
+# print(f"resultat : {resultat}")
+
+# =========================================exercice==========
+# Dans cet exercice, nous allons récupérer la valeur de la clé "prenom", contenue dans le dictionnaire employes.
+
+# Votre script doit donc retourner la chaîne de caractères "Pierre" dans la variable resultat.
+
+# employes = {
+#             "01": {
+#                 "identite": {
+#                     "prenom": "Pierre",
+#                     "nom": "Dupont"
+#                     }
+#                 }
+#             }
+
+# resultat = employes["01"]["identite"]["prenom"]
+
+# print(resultat)
